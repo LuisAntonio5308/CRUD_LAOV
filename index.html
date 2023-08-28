@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    type="text/css" href="styles.css"/>
+    <title>CRUD LUIS ANTONIO ORTIZ</title>
+</head>
+<body>
+    <div id = "container">
+        <h1>CRUD DE EMPLEADOS LAOV</h1>
+        <div id = "input-container">
+            <input type = "text" id ="name-input" placeholder="Enter Name">
+            <input type = "email" id ="email-input" placeholder="Enter email">
+            <button id= "add-btn">ADD</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <div id = "update-container">
+            <input type = "text" id = "update-name-input">
+            <input type = "text" id = "update-email-input">
+            <button id = "update-btn">Update</button>
+            <button id = "cancel-btn">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
